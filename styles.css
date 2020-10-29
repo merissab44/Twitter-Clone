@@ -1,0 +1,112 @@
+html, body{
+  height: 100%
+}
+#light{
+  background-image: url(./images/twitter.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  line-height: em;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50%;
+}
+.text {
+  justify-content: center;
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+  padding-left: 40px;
+}
+svg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#dark{
+  background-color: rgb(21, 32, 43);
+}
+label{
+  margin: 0;
+  color: rgb(255,255,255,0.5);
+  background-color: rgb(25, 39, 52);
+}
+}
+.form-container{
+  display: inline-block;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  right: 10px;
+  margin-left: 60px;
+}
+.form-control{
+  width: 200px;
+}
+#login-button{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 50%;
+  border-radius: 20px;
+  color: rgb(29, 161, 242);
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid rgb(29, 161, 242);
+}
+img{
+  fill: #fff;
+}
+.bg-secondary {
+    background-color: rgb(21, 32, 43)!important;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Helvetica';
+}
+.text-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+  }
+  .btn-container{
+    height: 200px;
+  width: 500px;
+  margin-left: 30%;
+  margin-top: 30%;
+  }
+  .btn-primary, .btn-secondary{
+    border-radius: 20px;
+    border: 1px solid rgb(29, 161, 242);
+    width: 65%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .btn-primary:hover{
+    background-color:#3790c8;
+  }
+  .btn-secondary:hover{
+    background-color:rgb(0,180,250,0.1);
+  }
+  .btn-primary{
+    background-color: #00acee;
+    color: white;
+  }
+  .btn-secondary{
+    background-color: transparent;
+    color: rgb(29, 161, 242);
+  }
